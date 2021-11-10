@@ -1,0 +1,44 @@
+---
+cs:
+  views:
+    liquids:
+      github:
+        view: Zobrazit na GitHubu
+      medium:
+        logo: Střední Logo
+      poll:
+        show_results: Jen mi ukaž výsledky
+      reddit:
+        author: 'Autor: %{author}'
+        see: Viz celý příspěvek
+      stackexchange:
+        answer:
+          text_html: "%{answer} re: %{title}"
+          answer: odpovědět
+        answers: 'Odpovědi: %{count}'
+        comments: 'Komentáře: %{count}'
+        open:
+          answer: Otevřít úplnou odpověď
+          article: Otevřít celý článek
+          question: Otevřete celou otázku
+      twitter:
+        view: Zobrazit na Twitteru
+      user_subscription:
+        confirm:
+          subtitle: Potvrďte odběr
+          button_text: Potvrďte odběr
+          cancel_text: Odvolat
+          text_html: Svou e-mailovou adresu%{email}, uživatelské jméno, jméno a adresu URL profilu DEV budete sdílet s %{username}. Jakmile to uděláte, nemůžete to vrátit zpět.
+        logged_out: Nejprve se musíte přihlásit do DEV.
+        sign_in: Přihlásit se
+        subscribe:
+          apple:
+            button: Předplatit
+            desc_html: Zdravím! Vypadá to, že když jste vytvořili svůj účet DEV, zaregistrovali jste se u společnosti Apple pomocí soukromé přenosové e-mailové adresy. Pokud se chcete přihlásit k odběru, prosím nejprve %{update} na jinou e-mailovou adresu.
+            update: aktualizujte svou e-mailovou adresu v Nastavení
+          button: Předplatit
+          desc_html: Přihlásíte se k odběru pomocí %{email} e-mailové adresy spojené s vaším účtem DEV. Chcete-li použít jinou e-mailovou adresu, můžete %{update}.
+          update: aktualizujte svou e-mailovou adresu v Nastavení
+      wikipedia:
+        logo: Logo Wikipedie
+        view: Zobrazit na Wikipedii

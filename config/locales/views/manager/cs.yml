@@ -1,0 +1,25 @@
+---
+cs:
+  views:
+    manager:
+      meta:
+        title: Spravovat %{title}
+      error:
+        pins: "A jé! %{error} 😬"
+      tools:
+        heading: 'Nástroje:'
+        subtitle: 'Zkušenostní úroveň příspěvku:'
+        text_html: "Je váš příspěvek napsán spíše pro začátečníky nebo pokročilé publikum? Upravte tuto úroveň jako <em>jemný</em> indikátor, který pomůže zobrazit příspěvek lidem, kteří z toho budou mít největší prospěch."
+      nav:
+        dashboard: Přístrojová deska
+        text: "👉 Spravujte svůj příspěvek"
+      rating:
+        heading: Zkušenostní úroveň pošty
+        text: Pro koho je tento příspěvek nejdůležitější?
+        lower: "👈  Začátečník"
+        higher: "Expert 👉"
+      tips:
+        heading: 'Tipy:'
+        text_1: Napište svůj vlastní tweet o příspěvku a popište osobně, proč jste jej napsali nebo proč by to pro lidi mohlo být užitečné. Můžeme vás retweetovat.
+        text_2_html: 'Sdílejte pro agregátory odkazů, jako je <a href="https://www.reddit.com">Reddit</a>. Zkuste vybrat co nejkonkrétnější subreddity, jako je <a href="https://www.reddit.com/r/javascript">/r/javascript</a> nebo <a href="https:// www.reddit.com/r/python">/r/python</a> atd. <em>Upozornění: mohou číhat hulváti a trollové.</em>'
+        text_3: Sdílejte se svými spolupracovníky nebo místními komunitami. Požádejte lidi, aby vám nechali otázky v komentářích. Je to skvělý způsob, jak vyvolat další diskusi.

@@ -1,0 +1,58 @@
+---
+cs:
+  views:
+    tags:
+      meta:
+        title: Tagy
+        description: Značky ke sledování na %{community}
+        og:
+          description: "%{community} je skvělé!"
+      heading: Top tagy
+      edit:
+        meta:
+          title: Upravit %{tag}
+        heading_html: " Editace: %{tag}"
+        admin: "Admin"
+        help: "Pomoc"
+        view: "Pohled"
+        form:
+          pretty_name:
+            label: Pěkné jméno
+            placeholder: Toto je jméno v horní části stránky show.
+          bg_color_hex:
+            label: Bg barva hex
+          text_color_hex:
+            label: Barva textu hex
+          short_summary:
+            label: Krátké shrnutí
+            placeholder: Stručný přehled toho, o čem tento tag je.
+          wiki_body_markdown:
+            label: Označení těla Wiki
+            placeholder: Toto je sekce „o“. Neváhejte přidat FAQ, další zdroje atd.
+          rules_markdown:
+            label: Značení pravidel
+            placeholder: Volitelné – Lze použít pro výzvy, tj. pokyny pro odevzdání.
+          submit: Uložit
+      follow: Následovat
+      following_tags: Následující značky
+      moderator:
+        text_html: "odděleno čárkou, mezera je volitelná. Příklad: %{code}"
+        code: 123
+        placeholder: "odděleno čárkou, mezera je volitelná. Příklad: 1,2,3"
+      published:
+        one: 1 zveřejněný příspěvek
+        other: "%{count} příspěvků zveřejněno"
+      sidebar:
+        about: 'asi #%{tag}'
+        admin: Admin
+        edit: Upravit
+        guidelines: pokyny k předkládání
+        moderate: Mírný
+        mods: označit moderátory
+        new: Vytvořit příspěvek
+        older: 'Starší příspěvky #%{tag}'
+        published:
+          one: 1 příspěvek zveřejněn
+          other: "%{count} příspěvků zveřejněno"
+        sponsor: "%{tag} je sponzorován"
+      sponsor: "| Sponzorováno %{org} ❤️"

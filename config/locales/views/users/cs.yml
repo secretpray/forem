@@ -1,0 +1,94 @@
+---
+cs:
+  views:
+    users:
+      meta:
+        og:
+          title: "%{user} — profil %{community}"
+      comments:
+        all:
+          one: Všechny %{count} komentáře
+          other: Všechny %{count} komentáře
+        last:
+          one: Posledních %{count} komentářů
+          other: Posledních %{count} komentářů
+        recent: Nedávné Komentáře
+        view: Zobrazit veškerou aktivitu
+        view_all:
+          one: Zobrazit všechny komentáře (%{count}).
+          other: Zobrazit všechny komentáře (%{count}).
+        view_last:
+          one: Zobrazit poslední 1 komentář
+          other: Zobrazit posledních %{count} komentářů
+      github:
+        heading: Úložiště GitHub
+        fork: Fork
+        stars:
+          one: 1 hvězdička
+          other: "%{count} hvězdiček"
+      pin_icon: Pin
+      pinned: Pinned
+      profile_fields:
+        bio:
+          label: Bio
+          placeholder: Krátký životopis...
+        display_email_on_profile: Zobrazit email na profilu
+        location:
+          label: Umístění
+          placeholder: Halifax, Nova Scotia
+        website:
+          label: URL stránky
+          placeholder: https://yoursite.com
+        education: Vzdělávání
+        currently_learning: V současné době se učí
+        currently_hacking_on: V současné době probíhá hackování
+        available_for: Dostupné pro
+        skills_languages: Dovednosti/Jazyky
+        work: Práce
+      side:
+        comment:
+          icon: Komentář
+          text:
+            one: 1 napsaný komentář
+            other: "%{count} napsaných komentářů"
+        org: Organizace
+        post:
+          icon: Pošta
+          text:
+            one: 1 zveřejněný příspěvek
+            other: "%{count} příspěvků zveřejněno"
+        tag:
+          icon: Štítek
+          text:
+            one: Následovala 1 značka
+            other: "%{count} sledovaných značek"
+      signout:
+        meta:
+          title: Potvrdit odhlášení – %{community}
+        heading: Opravdu se chcete odhlásit?
+        'yes': Ano, odhlaste se
+      block: Zablokovat @%{user}
+      chat: Povídat si
+      chat_with: Chatovat s %{user}
+      close: Zavřít modální
+      details: "%{user} detaily profilu"
+      dropdown: Akce uživatele
+      email_icon: Emailová adresa
+      empty: 404 bio nenalezeno
+      flag: Označit @%{user}
+      follow: Následovat
+      guidelines: "%{user}'s pokyny:"
+      joined:
+        icon: Připojeno
+        text_html: "Připojil se\_%{date}"
+      location_icon: Umístění
+      logo: "%{user} profilový obrázek"
+      more: Více informací o @%{user}
+      send_pm:
+        code: kodex chování
+        notice_html: Všechny soukromé interakce <b>musí</b> dodržovat %{code}.
+        placeholder: Zde zadejte svou zprávu...
+        submit: Poslat
+      social: "%{service} website"
+      unflag: Zrušit označení @%{user}
+      website: Osobní web

@@ -1,0 +1,145 @@
+---
+cs:
+  views:
+    comments:
+      meta:
+        title_root: Diskuze o %{title}
+        description: Článek z komunity
+        og:
+          title: Diskuze o %{title}
+          title_rel: "%{root} — %{site}"
+          title_root: "[Discussion] %{title} — %{site}"
+          description: "%{site} komentář"
+      messages:
+        create:
+          success: vytvořené
+          failure: komentář již existuje
+        markdown: 'Ve vašem markdownu došlo k chybě: %{error}'
+        markdown_html: "<p>😔 Ve vašem označení došlo k chybě</p><hr><p>%{error}</p>"
+      parent:
+        subtitle_html: "%{start}Diskuse na téma: %{end}%{title}"
+        metadata_html: "%{name}%{on}"
+        date: " on %{date}"
+        full: Plná diskuse
+        read: Přečíst celý příspěvek
+        view: Zobrazit příspěvek
+        view_full:
+          one: Zobrazit celou diskusi (%{count} comment)
+          other: Zobrazit celou diskuzi (%{count} comments)
+        reply_html: "%{start}Odpovědi pro:%{end} %{title}"
+      delete:
+        heading: Opravdu chcete tento komentář smazat?
+        desc_html: Tuto akci nemůžete vrátit zpět, možná chcete místo toho provést %{action}?
+        action: Upravit
+        error: Něco se pokazilo; Komentář NENÍ smazán.
+        notice: Komentář byl úspěšně smazán.
+        submit: Vymazat
+        edit: Upravit
+        cancel: Zavrhnout
+      collapse: Kolaps
+      edit: Úprava komentáře
+      edited:
+        text_html: "&bull; Upraveno %{on}"
+        on_html: on %{date}
+      expand: Rozšířit
+      hidden:
+        text_html: Některé komentáře byly skryty autorem příspěvku - %{info}
+        info: zjistit více
+      locked: Diskuse byla uzamčena. Nové komentáře nelze přidávat.
+      orphan:
+        deleted: "[Komentář ze smazaného příspěvku]"
+      re:
+        text_html: "%{re}%{title}"
+        re: 'Re: '
+      settings:
+        meta:
+          title: Nastavení komentářů
+        heading: Nastavení komentářů
+        state:
+          show:
+            subtitle: Zobrazují se upozornění na vlákna
+            desc: Budete dostávat všechna upozornění na tento komentář a všechny vaše komentáře v tomto řetězci.
+          mute:
+            subtitle: Vypnutí upozornění na vlákna
+            desc: Všechna upozornění na tento komentář a všechny vaše komentáře ve vláknu jsou momentálně ztlumeny.
+        subscribe:
+          subtitle: Předplatné
+          desc: Stále jste přihlášeni k odběru všech komentářů v širším vláknu, což znamená, že budete stále dostávat upozornění na odpovědi na tento komentář.
+          mute: Ztlumit oznámení
+          unmute: Přestat ignorovat oznámení
+      quality:
+        low: Komentář komunitou označen jako nekvalitní/nekonstruktivní.
+        conduct: Zobrazit Kodex chování
+        hidden:
+          icon: Info
+          text: Komentář skryt autorem příspěvku - vlákno je viditelné pouze v tomto trvalém odkazu
+      write:
+        errors:
+          one: '1 chyba zakázala uložení tohoto komentáře:'
+          other: "%{count} chyb zakázalo uložení tohoto komentáře:"
+        field:
+          aria_label: Přidejte komentář do diskuze
+          placeholder: Přidat do diskuze
+          submit: Nahrát
+          templates: Šablony
+          upload: Nahrát obrázek
+          use: Použijte šablonu odpovědi
+          guide:
+            title: Markdown Guide
+            icon: Průvodce editorem
+        template:
+          article: Tento příspěvek obsahuje šablonu komentáře
+          create:
+            subtitle: Vytvořit šablonu
+            desc: Šablony vám umožní rychle odpovědět na časté dotazy nebo uložit úryvky pro opětovné použití.
+          moderator: Moderátor
+          personal: Osobní
+        submit: Předložit
+        preview: Náhled
+        cancel: Zavrhnout
+      menu:
+        aria_label: Přepnout rozevírací nabídku
+        icon: Rozbalovací nabídka
+        copy:
+          aria_label: Zkopírujte odkaz na komentář uživatele %{user}
+          text: Kopírovat odkaz
+        settings:
+          aria_label: Přejděte do nastavení komentářů %{user}
+        action:
+          aria_label: "%{action} komentář uživatele %{user}"
+          hide: Skrýt
+          unhide: Odkrýt
+          hide_text: Skrýt
+          unhide_text: Odkrýt
+        moderate:
+          aria_label: Moderovat komentář uživatele %{user}
+        report:
+          aria_label: Nahlaste komentář uživatele %{user} jako urážlivý nebo porušující náš kodex chování a/nebo podmínky
+      footer:
+        heart:
+          title: srdce
+          icon: 'To se mi líbí komentář: '
+          count_html: "%{num}%{likes}"
+          text: Jako
+        reply:
+          aria_label: Odpovědět na komentář...
+          icon: Tlačítko komentář
+          done: Odpovězeno
+          text: Odpověď
+          placeholder: Odpověď...
+        thread:
+          icon: Vlákno
+          text: Vlákno
+        view:
+          icon: Tlačítko Zobrazit
+          text: Pohled
+      count:
+        one: "%{count} komentář"
+        other: "%{count} komentářů"
+      empty: Nový
+      add: "Přidat komentář"
+      summary:
+        count_html:
+          one: "%{count}%{start}\_komentář%{end}"
+          other: "%{count}%{start}\_komentáře%{end}"
+        title: Komentáře

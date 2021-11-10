@@ -1,0 +1,85 @@
+---
+cs:
+  views:
+    notifications:
+      meta:
+        description: Doručená oznámení pro %{community}
+        og:
+          title: Oznámení – %{community}
+      heading: Oznámení
+      badge:
+        heading_html: Obdrželi jste odznak %{badge}
+        awarded_html: "Také získáte %{credits}, které můžete použít pro %{listings}, pokud máte cokoli, co byste chtěli propagovat. 🎉"
+        credits:
+          one: "%{count} nových kreditů"
+          other: "%{count} nových kreditů"
+        listings: seznamy komunity
+        more: Více informací o výpisech
+        profile: Navštivte svůj profil
+      broadcast:
+        visit_html: Navštivte %{settings} a spravujte svá oznámení.
+        settings: Nastavení
+      comment:
+        commented_html: "%{user} okomentoval %{title}"
+        first_html: "%{user} napsal svůj první komentář k %{title}"
+        first_reply: "Dejte jim jejich první odpověď! 🎉"
+        left_html: "%{user} právě zanechal komentář k %{title}."
+        replied_html: "%{user} odpověděl na vlákno v %{title}"
+        report: Všechny negativní reakce jsou 100% soukromé. Pokud tento komentář porušuje kodex chování, hlasujte proti/nahlaste jako nevhodný.
+        welcome_html: Protože jsou v komunitě noví, mohl byste jim zanechat hezkou odpověď, abyste jim pomohli cítit se vítáni? <strong>Děkuji!</strong>
+      error:
+        subtitle: Vyskytla se chyba!
+        desc: Toto bylo zaznamenáno a sledujeme to.
+      follow:
+        and_html: "%{first} a %{second} vás následovali!"
+        and_other_html:
+          one: "%{first} a %{others} vás sledovali!"
+          other: "%{first} a %{others} vás sledovali!"
+        others:
+          one: "%{count} dalších"
+          other: "%{count} dalších"
+        single_html: "%{name} vás sleduje!"
+      load: Načíst další
+      mention:
+        article_html: "%{user} se o vás zmínil v příspěvku%{if_org}"
+        comment_html: "%{user} se o vás zmínil v komentáři"
+        if_org_html: " pod %{org}"
+      milestone:
+        heading_html: Váš příspěvek %{title} překonal %{type}!
+        check: Zkontrolujte si palubní desku
+        intro: "🎉🎉🎉🎉🎉🎉🎉🎉"
+        type:
+          View:
+            one: "%{count} zobrazení"
+            other: "%{count} zobrazení"
+          Reaction:
+            one: "%{count} reakcí"
+            other: "%{count} reakcí"
+      nav:
+        aria_label: Oznámení
+        all: Všechno
+        comments: Komentáře
+        posts: Příspěvky
+      new_post:
+        if_org_html: " pod %{org}"
+        verb_html: "%{user} vytvořil nový příspěvek%{if_org}"
+      reacted:
+        and_html: "%{first} a %{last}"
+        and_other_html:
+          one: "%{first} a %{count} ostatní"
+          other: "%{first} a %{count} ostatní"
+        verb_html:
+          one: "%{start}%{actors} reagovalo na %{title} s%{end} %{reactions}"
+          other: "%{start}%{actors} reagovalo na %{title} s%{end} %{reactions}"
+        your:
+          article: váš článek
+          comment: tvůj komentář
+      settings: Nastavení
+      tag:
+        heading: "Zdravím 👋"
+        add_html: Moderátoři přidali štítek <strong>%{tag}</strong> k vašemu příspěvku %{title}. Mods se domnívali, že tato značka představuje váš článek.
+        check_html: Podívejte se na %{other}, který může být vhodnější
+        other: další oblíbené značky
+        reason: 'Důvod k akci:'
+        remove_html: Moderátoři odstranili značku <strong>%{tag}</strong> z vašeho příspěvku %{title}. Některé štítky mají zvláštní pokyny pro odesílání a mody musí štítky upravit tak, aby co nejlépe vyhovovaly komunitě.
+        support_html: "Děkujeme, že jste součástí %{community}! %{e-mailem} 🤗"

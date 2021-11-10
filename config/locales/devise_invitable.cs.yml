@@ -1,0 +1,32 @@
+---
+cs:
+  devise:
+    failure:
+      invited: Máte nevyřízenou pozvánku, přijměte ji a dokončete vytváření účtu.
+    invitations:
+      edit:
+        header: Nastavte si heslo
+        submit_button: Začněme
+      invitation_removed: Your invitation was removed.
+      invitation_token_invalid: Vaše pozvánka byla odstraněna.
+      new:
+        header: Poslat pozvánku
+        submit_button: Pošlete pozvánku
+      no_invitations_remaining: Nezbývají žádné pozvánky
+      send_instructions: Na e-mail byl odeslán %{email} s pozvánkou.
+      updated: Vaše heslo bylo úspěšně nastaveno. Nyní jste přihlášeni.
+      updated_not_active: Vaše heslo bylo úspěšně nastaveno.
+    mailer:
+      invitation_instructions:
+        accept: Přijmout pozvání
+        accept_until: Tato pozvánka bude splatná za %{due_date}.
+        hello: Dobrý den, %{email}
+        ignore: Pokud pozvánku přijmout nechcete, ignorujte prosím tento e-mail. Váš účet nebude vytvořen, dokud nevstoupíte na výše uvedený odkaz a nenastavíte své heslo.
+        someone_invited_you: Někdo vás pozval na %{url}, můžete to přijmout prostřednictvím odkazu níže.
+        subject: Pokyny pro pozvání
+  time:
+    formats:
+      devise:
+        mailer:
+          invitation_instructions:
+            accept_until_format: "%B %d, %Y %I:%M %p"

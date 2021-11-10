@@ -1,0 +1,233 @@
+---
+cs:
+  contact_prompts:
+    if_any_questions_html: <a href="/contact">Kontaktujte nás</a> jestli máš nějaké dotazy.
+    if_continued_trouble_html: <a href="/contact">Kontaktujte nás</a> pokud budete mít potíže i nadále.
+    if_we_can_help_html: <a href="/contact">Kontaktujte nás</a> pokud je něco, s čím můžeme pomoci.
+  core:
+    add_comment: Přidat komentář
+    analytics: Analytics
+    comment: Komentář
+    comments: Komentáře
+    community_name_is_great: "%{community_name} je skvělé!"
+    copy_link: Kopírovat odkaz
+    create_account: Vytvořit účet
+    create_post: Vytvořit příspěvek
+    dashboard: Přístrojová deska
+    edit_profile: Upravit profil
+    feed: Krmit
+    follow: Následovat
+    follow_back: Následujte zpět
+    follower: Následovník
+    followers: Následovníci
+    following: Následující
+    home: Domovská stránka
+    infinity: Nekonečno
+    joined: Připojeno
+    joined_on: Připojil se
+    latest: Nejnovější
+    like: Jako
+    listings: Výpisy
+    loading: načítání...
+    location: Umístění
+    log_in: Přihlásit se
+    moderator_center: Moderátorské centrum
+    month: Měsíc
+    more_from: Více z
+    my_tags: Moje značky
+    pinned: Připnuto
+    popular_tags: Populární tagy
+    post: Pošta
+    posts: Příspěvky
+    reaction: Reakce
+    reaction_pluralized:
+      one: reakce
+      other: reakce
+    reactions:
+      heart: Srdce
+      save: Uložit
+      unicorn: Jednorožec
+    reading_list: Seznam četby
+    reply: Odpověď
+    report_abuse: Nahlásit zneužití
+    search: Vyhledávání
+    see_all: Vidět vše
+    series: Série
+    settings: Nastavení
+    sign_out: Odhlásit se
+    trending_on: Trending on
+    week: Týden
+    year: Year
+  dashboard:
+    empty_follower: Zatím nemáte žádné sledující...
+    empty_post: Zde můžete spravovat své příspěvky, ale zatím jste nic nenapsali.
+    following_users: Sledující uživatele
+    loading: načítání...
+    not_following_any_users: Nesledujete žádné uživatele...
+    page_title: Přístrojová deska
+    upload_a_video: Nahrajte video
+    write_new_post: Napište svůj první příspěvek hned
+  datetime:
+    distance_in_words_ago: # https://github.com/openstreetmap/openstreetmap-website/issues/2255
+      about_x_hours:
+        one: asi před 1 hodinou
+        other: asi před %{count} hodinami
+      about_x_months:
+        one: asi před 1 měsícem
+        other: asi před %{count} měsíci
+      about_x_years:
+        one: asi před 1 rokem
+        other: asi před %{count} lety
+      almost_x_years:
+        one: téměř před 1 rokem
+        other: před téměř %{count} lety
+      half_a_minute: před půl minutou
+      less_than_x_seconds:
+        one: před méně než 1 sekundou
+        other: před méně než %{count} sekundami
+      less_than_x_minutes:
+        one: před méně než minutou
+        other: před méně než %{count} minutami
+      over_x_years:
+        one: před více než 1 rokem
+        other: před více než %{count} lety
+      x_seconds:
+        one: před 1 sekundou
+        other: "před %{count} sekundami"
+      x_minutes:
+        one: před 1 minutou
+        other: "před %{count} minutami"
+      x_days:
+        one: před 1 dnem
+        other: "před %{count} dny"
+      x_months:
+        one: před 1 měsícem
+        other: "před %{count} měsíci"
+      x_years:
+        one: před 1 rokem
+        other: "před %{count} lety"
+    expired_ago:
+      about_x_hours:
+        one: Platnost vypršela asi před 1 hodinou
+        other: Platnost vypršela před %{count} hodinami
+      about_x_months:
+        one: Platnost vypršela asi před 1 měsícem
+        other: Platnost vypršela přibližně před %{count} měsíci
+      about_x_years:
+        one: Platnost vypršela asi před 1 rokem
+        other: Platnost vypršela před %{count} lety
+      almost_x_years:
+        one: Platnost vypršela téměř před 1 rokem
+        other: Platnost vypršela téměř před %{count} lety
+      half_a_minute: Platnost vypršela před půl minutou
+      less_than_x_seconds:
+        one: Platnost vypršela před méně než 1 sekundou
+        other: Platnost vypršela před méně než %{count} sekundami
+      less_than_x_minutes:
+        one: Platnost vypršela před méně než minutou
+        other: Platnost vypršela před méně než %{count} minutami
+      over_x_years:
+        one: Platnost vypršela před více než 1 rokem
+        other: Platnost vypršela před více než %{count} lety
+      x_seconds:
+        one: Platnost vypršela před 1 sekundou
+        other: Platnost vypršela před %{count} sekundami
+      x_minutes:
+        one: Platnost vypršela před 1 minutou
+        other: Platnost vypršela před %{count} minutami
+      x_days:
+        one: Platnost vypršela před 1 dnem
+        other: Platnost vypršela před %{count} dny
+      x_months:
+        one: Platnost vypršela před 1 měsícem
+        other: Platnost vypršela před %{count} měsíci
+      x_years:
+        one: Platnost vypršela před 1 rokem
+        other: Platnost vypršela před %{count} lety
+    expires_in:
+      about_x_hours:
+        one: Vyprší přibližně za 1 hodinu
+        other: Vyprší přibližně za %{count} hodin
+      about_x_months:
+        one: Vyprší přibližně za 1 měsíc
+        other: Vyprší přibližně za %{count} měsíců
+      about_x_years:
+        one: Vyprší přibližně za 1 rok
+        other: Vyprší přibližně za %{count} let
+      almost_x_years:
+        one: Vyprší za téměř 1 rok
+        other: Vyprší za téměř %{count} let
+      half_a_minute: Vyprší za půl minuty
+      less_than_x_seconds:
+        one: Vyprší za méně než 1 sekundu
+        other: Vyprší za méně než %{count} sekund
+      less_than_x_minutes:
+        one: Platnost vyprší za méně než minutu
+        other: Vyprší za méně než %{count} minut
+      over_x_years:
+        one: Vyprší za více než 1 rok
+        other: Vyprší za více než %{count} let
+      x_seconds:
+        one: Vyprší za 1 sekundu
+        other: Platnost vyprší za %{count} sekund
+      x_minutes:
+        one: Vyprší za 1 minutu
+        other: Vyprší za %{count} minut
+      x_days:
+        one: Vyprší za 1 den
+        other: Vyprší za %{count} dní
+      x_months:
+        one: Vyprší za 1 měsíc
+        other: Vyprší za %{count} měsíců
+      x_years:
+        one: Vyprší za 1 rok
+        other: Vyprší za %{count} let
+  errors:
+    messages:
+      accepted: musí být přijato
+      bad_protocol: musí začínat %{protocols}
+      bad_uri: je neplatná adresa URL
+      blank: nemůže být prázdné
+      confirmation: neodpovídá %{attribute}
+      empty: nemůže být prázdný
+      equal_to: musí se rovnat %{count}
+      even: musí být rovnoměrné
+      exclusion: je rezervováno
+      greater_than: musí být větší než %{count}
+      greater_than_or_equal_to: musí být větší nebo rovno %{count}
+      inclusion: není zahrnuta v seznamu
+      invalid: je neplatný
+      less_than: musí být menší než %{count}
+      less_than_or_equal_to: musí být menší nebo roven %{count}
+      model_invalid: 'Ověření se nezdařilo: %{errors}'
+      not_a_number: není číslo
+      not_an_integer: musí být celé číslo
+      odd: musí být liché
+      other_than: musí být jiné než %{count}
+      present: musí být prázdné
+      required: musí existovat
+      taken: již bylo pořízeno
+      too_long:
+        one: je příliš dlouhý (maximálně 1 znak)
+        other: is je příliš dlouhé (maximum je %{count} znaků)
+      too_short:
+        one: je příliš krátký (minimum je 1 znak)
+        other: je příliš krátký (minimum je %{count} znaků)
+      wrong_length:
+        one: je nesprávná délka (měl by být 1 znak)
+        other: je nesprávná délka (mělo by to být %{count} znaků)
+  settings_menu:
+    account: Účet
+    billing: Fakturace
+    customization: Přizpůsobení
+    extensions: Rozšíření
+    notifications: Oznámení
+    organization: Organizace
+    profile: Profil
+  time:
+    formats:
+      comment: "%B %d, %Y"
+      short: "%b %-e"
+      short_with_year: "%b %-e, %Y"
+      stackexchange: "%b %e '%y"
+      tweet: "%H:%M %p - %d %b %Y"

@@ -1,0 +1,89 @@
+---
+cs:
+  views:
+    articles:
+      meta:
+        description: Článek z komunity
+      actions:
+        aria_label: Akce článku
+      comments:
+        aria_label: Komentáře k příspěvku %{title} (%{num})
+        subtitle_html: Diskuse %{num}
+        num: "(%{num})"
+        subscribe: Předplatit
+      conduct:
+        aria_label: Provádějte kontroly
+        code: Kodex chování
+        report: Nahlásit zneužití
+      delete:
+        heading: Opravdu chcete tento článek smazat?
+        desc:
+          text_html: Tuto akci nemůžete vrátit zpět, možná chcete místo toho provést %{action}?
+          edit: upravit
+          unpublish: zrušit publikování
+        action:
+          button: Vymazat
+          cancel: Zavrhnout
+          edit: Upravit
+          unpublish: Zrušit publikování
+      lock:
+        meta:
+          title: Potvrďte zámek diskuse
+        heading: Opravdu chcete zamknout diskuzi k tomuto příspěvku?
+        desc_html: Uživatelé nebudou moci přidávat nové komentáře. Tím <em class="fw-bold">neodstraníte</em> existující komentáře. Diskusi můžete kdykoli odemknout a umožnit uživatelům znovu zanechat komentáře.
+        cancel: Zrušení
+        notes:
+          label: Poznámky (volitelné) – toto je viditelné pouze pro vás a administrátory
+          placeholder: Další podrobnosti o tom, proč jste zamkli diskuzi.
+        reason:
+          label: Důvod uzamčení diskuze (volitelné) - bude veřejně zobrazen
+          placeholder: Důvod, proč zamykáte tuto diskuzi.
+        submit: Uzamknout diskusi
+      preview_discuss_html:
+        zero: Nová diskuze!
+        one: '#discuss <img src="%{image}" />%{count}'
+        other: '#discuss <img src="%{image}" />%{count}'
+      save:
+        title: Uložit do seznamu četby
+        aria_label: Uložit do seznamu četby
+        initial: Uložit
+        success: Uložené
+      series:
+        subtitle: "%{slug} (%{size})"
+        size:
+          one: "%{count} Part Series"
+          other: "%{count} Part Series"
+        published: Publikováno %{date}
+        inbetween:
+          num: "..."
+          text:
+            one: ještě jeden díl...
+            other: "%{count} dalších dílů..."
+          title: Zobrazit více
+      unlock:
+        meta:
+          title: Potvrďte odemknutí diskuse
+        heading: Opravdu chcete odemknout diskuzi k tomuto příspěvku?
+        desc: Uživatelé budou moci přidávat nové komentáře. Diskusi můžete kdykoli zamknout, abyste uživatelům zabránili zanechávat komentáře.
+        cancel: Zrušení
+        notes: 'Poznámky z doby, kdy byla tato diskuse uzamčena (viditelné pouze pro vás a administrátory):'
+        reason: 'Důvod, proč byla tato diskuse uzamčena (veřejně viditelná):'
+        submit: Odemknout diskusi
+      unpublished:
+        subtitle: Nepublikovaný příspěvek.
+        text: "Tato adresa URL je veřejná, ale tajná, sdílejte ji proto podle vlastního uvážení."
+        edit: Klikněte pro úpravu
+      co_authors_html: s %{names}
+      crossposted:
+        text_html: Původně publikováno na %{url} %{on}
+        on_html: on %{date}
+      edited: Aktualizováno %{date}
+      edited_html: Aktualizováno %{date}
+      for_org_html: "%{start} for %{end}%{org}"
+      missing: Článek již není dostupný
+      posted_html: Zveřejněno %{date}
+      read_next: Čtěte dále
+      reading_time:
+        one: "1 minuta čtení"
+        other: "%{count} min čtení"
+      right_nav: Podrobnosti o autorovi

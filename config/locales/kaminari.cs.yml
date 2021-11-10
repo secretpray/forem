@@ -1,0 +1,9 @@
+---
+cs:
+  views:
+    pagination:
+      first: "&laquo; Za prvé"
+      last: Nejnovější &raquo;
+      next: Následující &rsaquo;
+      previous: "&lsaquo; Předchozí"
+      truncate: "&hellip;"

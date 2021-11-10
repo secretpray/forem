@@ -1,0 +1,83 @@
+---
+cs:
+  views:
+    listings:
+      meta:
+        description: "%{community} zápis"
+      heading: Výpisy
+      back: Vrátit se
+      delete:
+        subtitle: Opravdu chcete tento zápis smazat?
+        description:
+          text_html: Tuto akci nemůžete vrátit zpět, možná chcete místo toho provést %{action}?
+          edit: upravit
+          unpublish: zrušit publikování
+        edit: Upravit
+        submit: Vymazat
+        unpublish: Zrušit publikování
+      edit:
+        heading: Upravit výpis
+        bump:
+          subtitle: Oživte svůj záznam
+          button: Bump výpis
+          description: Svůj záznam můžete zvýšit za stejnou cenu jako původní záznam
+          last: 'Naposledy publikováno/překročeno: %{date}'
+        notice: Upravovat můžete pouze název/tělo/štítky konceptů nebo během prvních 24 hodin od zařazení do seznamu nebo přechodu
+        not_published:
+          text_html: Tento záznam je %{not} zveřejněn.
+          aside_html: Tento záznam je %{not} zveřejněn
+          not: ne
+        publish: Publikovat výpis
+        unpublish: Zrušit publikování zápisu
+        update: Aktualizovat výpis
+        update_draft: Aktualizovat koncept
+      to_edit: Upravit
+      errors:
+        one: '1 chyba zakázala uložení tohoto záznamu:'
+        other: "%{count} chyb zakázalo uložení tohoto záznamu:"
+      expired: Platnost tohoto seznamu vypršela.
+      form:
+        body_markdown:
+          description: Maximálně 400 znaků, zalomení řádku maximálně 12, obrázky nejsou povoleny, *doporučuje se *markdown*. V případě potřeby uveďte způsob kontaktu.
+          placeholder: "..."
+        category:
+          label: Kategorie
+          placeholder: Konferenční CFP (1 kredit)
+          summary: Podrobnosti/pravidla kategorie
+        connect:
+          subtitle: Připojte zasílání zpráv
+          description: Allow Users to message me via Connect.
+        expiry:
+          description: Pokud je to vhodné pro časově citlivé události, termíny atd.
+        location:
+          description: Maximálně 32 znaků, prostý text
+          label: Místo (pokud je to vhodné pro akce atd.)
+          placeholder: Olmütz
+        no_credit: K vytvoření zápisu potřebujete alespoň jeden kredit.
+        organization:
+          description: Zveřejňování příspěvků jménem organizace utrácí kredity organizace.
+          none: Žádný
+        publish: Publikovat výpis
+        purchase: Nákup kreditů
+        save: Uložit koncept
+        save_notice: Za uložení konceptu vám nebudou účtovány žádné kredity.
+        tags:
+          placeholder: Přidejte až 8 značek...
+        title:
+          placeholder: Maximálně 128 znaků, prostý text
+      nav:
+        aria_label: Výpisy
+        create: Vytvořit
+        manage: Spravovat
+      new:
+        meta:
+          title: Nový výpis
+        heading: Vytvořte zápis komunity
+        buy: Koupit více
+        disclaimer:
+          subtitle: Zřeknutí se odpovědnosti
+          description1: "Administrátoři %{community} mohou upravit značky a kategorie, aby zajistili přesnost. Můžeme také odstranit nevhodné záznamy a vrátit peníze."
+          description2: Platnost výpisů vyprší 30 dní poté, co byly zveřejněny nebo „zničeny“.
+        organization: Organizační kredity
+        personal: Osobní kredity
+      preview_icon: Logo DEV

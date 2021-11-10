@@ -1,0 +1,32 @@
+---
+cs:
+  views:
+    organizations:
+      empty: 404 bio nenalezeno
+      external:
+        icon: Ikona externího odkazu
+      follow: Následovat
+      github:
+        icon: Logo GitHub
+      joined:
+        icon: Připojeno
+        text_html: "Připojil se\_%{date}"
+      location:
+        icon: Umístění
+      logo: "%{org} profilový obrázek"
+      size: Zaměstnanci
+      sponsor:
+        text: "%{level} Sponzor komunity ❤️"
+        level:
+          gold: Zlato
+          silver: Stříbrný
+          bronze: Bronz
+          tag: Štítek
+          media: Média
+          devrel: Devrel
+      stack: náš zásobník
+      story: náš příběh
+      support: E-mail podpory
+      team: setkat se s týmem
+      twitter:
+        icon: Logo Twitteru

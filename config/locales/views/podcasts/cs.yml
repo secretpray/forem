@@ -1,0 +1,36 @@
+---
+cs:
+  views:
+    podcasts:
+      meta:
+        title: Podcasty
+        description: Objevte technické podcasty pro %{member}
+        og:
+          title: Podcasty zapnuty %{community}
+      browse: Procházet
+      heading: Podcasty
+      close: "×"
+      form:
+        heading: Navrhněte podcast
+        errors:
+          one: '1 chyba při vytváření podcastu:'
+          other: "%{count} chyb při vytváření podcastu:"
+        owner: Jsem vlastníkem tohoto podcastu
+        return: "< návrat k podcastům"
+        suggest: Navrhněte
+      list: podcasty
+      listen: Klikněte zde pro stažení/poslech
+      source: Zdroj epizody
+      statuses:
+        ssl_failed: Ověření certifikátu SSL se nezdařilo při načítání feed_url podcastu
+        unparsable: RSS podcastu nelze analyzovat
+        unplayable: Tento podcast nemusí být možné přehrát v prohlížeči
+        unreachable: Feed_url podcastu není dosažitelný
+      speed: 1x
+      tag: podcast
+      initializing: inicializace...
+      unsupported: Váš prohlížeč nepodporuje zvukový prvek.
+      featured_shows: Doporučené pořady
+      latest_episodes: Nejnovější epizody
+      suggest_a_podcast: Navrhněte podcast
+      view_all_podcasts: Zobrazit všechny podcasty

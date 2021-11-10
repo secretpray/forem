@@ -1,0 +1,25 @@
+---
+cs:
+  helpers:
+    label:
+      listing:
+        body_markdown: Body Markdown
+        expires_at: Vlastní datum vypršení platnosti
+        location: Umístění
+        organization_id: Příspěvek pod organizací
+        tag_list: Tagy
+        title: Titul
+      podcast:
+        android_url: URL pro Android
+        description: Popis
+        feed_url: Adresa URL zdroje
+        image: Obraz
+        itunes_url: Adresa URL iTunes
+        main_color_hex: Hlavní barva hex
+        overcast_url: Zatažená adresa URL
+        pattern_image: Obrázek vzoru
+        slug: Slimák
+        soundcloud_url: URL zvukového cloudu
+        title: Titul
+        twitter_username: Uživatelské jméno na Twitteru
+        website_url: URL stránky

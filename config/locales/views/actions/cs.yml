@@ -1,0 +1,25 @@
+---
+cs:
+  views:
+    actions:
+      copy:
+        text: Zkopírováno do schránky
+        title: Zkopírujte odkaz na článek do schránky
+        button: Kopírovat odkaz
+      more:
+        title: Více...
+        aria_label: Možnosti sdílení příspěvků
+      share:
+        facebook:
+          text: Sdílet na Facebooku
+        hackernews:
+          text: Sdílejte s Hacker News
+        linkedin:
+          text: Sdílet na LinkedIn
+        reddit:
+          text: Sdílejte na Redditu
+        twitter:
+          text: Podíl na Twitter
+          query: '"%{article}" od %{author}'
+        link: Sdílet příspěvek přes...
+        report: Nahlásit zneužití

@@ -1,0 +1,20 @@
+---
+cs:
+  views:
+    feedback:
+      meta:
+        title: Zpětná vazba
+      heading: Děkujeme za vaši zprávu.
+      home: Návrat na domovskou stránku
+      form:
+        rude_or_vulgar: Hrubý nebo vulgární
+        harassment: Obtěžování nebo projevy nenávisti
+        spam: Problém se spamem nebo autorskými právy
+        listings: Nevhodná zpráva/kategorie výpisů
+        other: Jiný
+        url: Nahlášená adresa URL
+        message:
+          subtitle: Zpráva
+          description: Uveďte prosím jakékoli další informace nebo souvislosti, které nám pomohou situaci pochopit a zvládnout.
+          placeholder: "..."
+        submit: Poslat zpětnou vazbu

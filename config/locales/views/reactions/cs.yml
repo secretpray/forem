@@ -1,0 +1,31 @@
+---
+cs:
+  views:
+    reactions:
+      category:
+        hands: Ruce
+        like: Jako
+        readinglist: Seznam četby
+        thinking: Myslící
+        thumbsup: Palec nahoru
+        thumbsdown: Palec dolů
+        unicorn: Jednorožec
+        vomit: Zvracení
+      summary:
+        count_html:
+          one: "%{count}%{start}\_reakce%{end}"
+          other: "%{count}%{start}\_reakce%{end}"
+        title: Reakce
+      like:
+        title: Srdce
+        aria_label: Jako
+        icon: Oblíbené srdce tlačítko
+        text: Jako
+      unicorn:
+        title: Jednorožec
+        aria_label: Reagovat s jednorožcem
+      readingList:
+        title: Uložit
+        aria_label: Přidat do seznamu četby
+        icon: Tlačítko Uložit
+        text: Uložit

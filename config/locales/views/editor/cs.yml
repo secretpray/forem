@@ -1,0 +1,28 @@
+---
+cs:
+  views:
+    editor:
+      meta:
+        title: Upravit příspěvek
+      heading:
+        new: Nový příspěvek
+      create: Vytvořit příspěvek
+      close:
+        icon: Zavřít
+        title: Zavřete editor
+      cover_image:
+        add: Přidejte titulní obrázek
+        change: Změna
+      edit: Upravit
+      modes: Zobrazit režimy příspěvků
+      new_title: Nový název příspěvku zde...
+      preview: Náhled
+      video:
+        progress:
+          heading: "⏳ Probíhá překódování videa ⏳"
+          notice_1: Až tento proces skončí, obdržíte e-mail.
+          notice_2: Toto je obyčejný nepublikovaný příspěvek. Přidejte název/štítky/tělo/atd. a po dokončení zpracování videa je označte jako zveřejněné.
+        submit_image:
+          button: Odeslat změnu
+          text: 'Adresa URL náhledu obrázku: '
+          placeholder: Nová adresa URL miniatury

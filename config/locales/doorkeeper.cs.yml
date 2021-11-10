@@ -1,0 +1,140 @@
+---
+cs:
+  activerecord:
+    attributes:
+      doorkeeper/application:
+        name: Název
+        redirect_uri: Přesměrování URI
+    errors:
+      models:
+        doorkeeper/application:
+          attributes:
+            redirect_uri:
+              forbidden_uri: je serverem zakázáno.
+              fragment_present: nemůže obsahovat fragment.
+              invalid_uri: musí být platný identifikátor URI.
+              relative_uri: musí být absolutní URI.
+              secured_uri: musí být HTTPS/SSL URI.
+              unspecified_scheme: musí specifikovat schéma.
+            scopes:
+              not_match_configured: neodpovídá konfiguraci na serveru.
+  doorkeeper:
+    applications:
+      buttons:
+        authorize: Autorizovat
+        cancel: Odvolat
+        destroy: Zničit
+        edit: Upravit
+        submit: Předložit
+      confirmations:
+        destroy: Jsi si jistá?
+      edit:
+        title: Upravit aplikaci
+      form:
+        error: Jejda! Zkontrolujte, zda ve formuláři nejsou možné chyby
+      help:
+        blank_redirect_uri: Ponechte toto pole prázdné, pokud jste svého poskytovatele nakonfigurovali tak, aby používal přihlašovací údaje klienta, přihlašovací údaje vlastníka zdroje nebo jakýkoli jiný typ grantu, který nevyžaduje URI přesměrování.
+        confidential: Aplikace bude použita tam, kde může být utajeno tajemství klienta. Nativní mobilní aplikace a aplikace s jednou stránkou nejsou považovány za důvěrné.
+        redirect_uri: Použijte jeden řádek na URI
+        scopes: Rozsahy oddělte mezerami. Chcete-li použít výchozí rozsahy, ponechte prázdné.
+      index:
+        actions: Akce
+        callback_url: Adresa URL zpětného volání
+        confidential: Důvěrné?
+        confidentiality:
+          'no': 'Ne'
+          'yes': 'Ano'
+        name: Název
+        new: Nová aplikace
+        title: Vaše aplikace
+      new:
+        title: Nová aplikace
+      show:
+        actions: Akce
+        application_id: UID
+        callback_urls: URL zpětného volání
+        confidential: Důvěrné
+        not_defined: Není definovaný
+        scopes: Rozsahy
+        secret: Tajný
+        secret_hashed: Tajné hash
+        title: 'Aplikace: %{name}'
+    authorizations:
+      buttons:
+        authorize: Authorize
+        deny: Deny
+      error:
+        title: An error has occurred
+      form_post:
+        title: Submit this form
+      new:
+        able_to: This application will be able to
+        prompt: Authorize %{client_name} to use your account?
+        title: Authorization required
+      show:
+        title: Authorization code
+    authorized_applications:
+      buttons:
+        revoke: Revoke
+      confirmations:
+        revoke: Are you sure?
+      index:
+        application: Aplikace
+        created_at: Vytvořeno v
+        date_format: "%Y-%m-%d %H:%M:%S"
+        title: Vaše autorizované aplikace
+    errors:
+      messages:
+        access_denied: Vlastník zdroje nebo autorizační server požadavek zamítl.
+        admin_authenticator_not_configured: Přístup k administrátorskému panelu je zakázán, protože Doorkeeper.configure.admin_authenticator není nakonfigurován.
+        credential_flow_not_configured: Tok přihlašovacích údajů pro heslo vlastníka zdroje se nezdařil, protože nebyla nakonfigurována služba Doorkeeper.configure.resource_owner_from_credentials.
+        forbidden_token:
+          missing_scope: Přístup k tomuto zdroji vyžaduje rozsah "%{oauth_scopes}".
+        invalid_client: Ověření klienta se nezdařilo kvůli neznámému klientovi, žádnému ověření klienta nebo nepodporované metodě ověřování.
+        invalid_code_challenge_method: Metoda výzvy kódu musí být jednoduchá nebo S256.
+        invalid_grant: Poskytnuté udělení autorizace je neplatné, vypršelo, bylo odvoláno, neodpovídá URI přesměrování použitému v požadavku na autorizaci nebo bylo vydáno jinému klientovi.
+        invalid_redirect_uri: Požadované URI přesměrování má nesprávný tvar nebo neodpovídá URI přesměrování klienta.
+        invalid_request:
+          missing_param: 'Chybí povinný parametr: %{value}.'
+          request_not_authorized: Žádost musí být autorizována. Požadovaný parametr pro autorizační požadavek chybí nebo je neplatný.
+          unknown: Požadavek postrádá požadovaný parametr, obsahuje nepodporovanou hodnotu parametru nebo je jinak chybný.
+        invalid_scope: Požadovaný rozsah je neplatný, neznámý nebo má nesprávný tvar.
+        invalid_token:
+          expired: Platnost přístupového tokenu vypršela
+          revoked: Přístupový token byl odvolán
+          unknown: Přístupový token je neplatný
+        resource_owner_authenticator_not_configured: Hledání vlastníka zdroje se nezdařilo, protože není nakonfigurován soubor Doorkeeper.configure.resource_owner_authenticator.
+        revoke:
+          unauthorized: Nemáte oprávnění tento token odvolat
+        server_error: Autorizační server narazil na neočekávanou podmínku, která mu zabránila splnit požadavek.
+        temporarily_unavailable: Autorizační server aktuálně nemůže zpracovat požadavek z důvodu dočasného přetížení nebo údržby serveru.
+        unauthorized_client: Klient není oprávněn provést tento požadavek touto metodou.
+        unsupported_grant_type: Autorizační server nepodporuje typ udělení autorizace.
+        unsupported_response_mode: Autorizační server nepodporuje tento režim odezvy.
+        unsupported_response_type: Autorizační server nepodporuje tento typ odpovědi.
+    flash:
+      applications:
+        create:
+          notice: Aplikace vytvořena.
+        destroy:
+          notice: Aplikace smazána.
+        update:
+          notice: Aplikace aktualizována.
+      authorized_applications:
+        destroy:
+          notice: Přihláška odvolána.
+    layouts:
+      admin:
+        nav:
+          applications: Aplikace
+          home: Domov
+          oauth2_provider: Poskytovatel OAuth2
+        title: Doorkeeper
+      application:
+        title: Vyžaduje se autorizace OAuth
+    pre_authorization:
+      status: Předběžná autorizace
+    scopes:
+      public: Přístup k veřejným profilovým údajům a publikovaným článkům
+      read_articles: Přístup ke všem článkům včetně konceptů
+      write_articles: Přístup k vytváření a aktualizaci článků

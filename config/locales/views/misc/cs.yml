@@ -1,0 +1,89 @@
+---
+cs:
+  views:
+    badges:
+      meta:
+        title: Odznaky
+        name: "%{title} odznak"
+      all:
+        one: Ukaž jeden odznak
+        other: Zobrazit všechny %{count} odznaky
+      heading: Odznaky
+      desc: Získejte odznaky za to, že jste úžasní! Kliknutím na odznak zjistíte, jak jej můžete získat.
+      name: "🏅 %{title} Odznak 🏅"
+    campaign:
+      subtitle: Příběhy (%{count})
+      view: Zobrazit všechny příspěvky
+    deep_links:
+      subtitle: Otevírání mobilní aplikace...
+      alert:
+        subtitle: Jejda! Zasekli jste se při pokusu o otevření mobilní aplikace?
+        desc_html: Ujistěte se, že je nainstalován, a zkuste to znovu. Pokud problém přetrvává, kontaktujte %{email}
+        back: Vezmi mě zpátky
+        again: Zkus to znovu
+        install: Nainstalujte aplikaci
+    logo:
+      color_1:
+        label: Barva značky 1
+        description: Používá se pro pozadí, okraje atd.
+        select:
+          aria_label: Barva značky 1 výběr barvy
+          label: Barva značky Vyberte 1 barvu
+      color_2:
+        label: Barva značky 2
+        description_html: Používá se pro texty (obvykle na <em>Barva značky 1</em>).
+        select:
+          aria_label: Výběr barvy značky 2 barvy
+          label: Barva značky Výběr ze 2 barev
+      preview:
+        icon: Logo aplikace
+        text: 'Náhled:'
+    onboardings:
+      meta:
+        title: Vítejte v %{community}
+      heading: Nyní jste součástí komunity!
+      subtitle: DOPORUČENÉ VĚCI, KTERÉ MŮŽETE UDĚLAT
+      close: Zavřít uvítací zprávu
+      settings_html: "<span class=\"emoji\">💅🏼</span>Přizpůsobte si svůj profil"
+      welcome_html: "<span class=\"emoji\">😊</span>Připojte se k uvítacímu vláknu"
+      write_html: "<span class=\"emoji\">✍🏾</span>Napište svůj první příspěvek %{community}"
+    pins:
+      article: Připnuto
+      pinned: "📌 Připnuto! (připnuté příspěvky se zobrazují chronologicky, maximálně 5)"
+      removed: "🗑 Připínáček byl odstraněn"
+      error: Můžete mít pouze pět kolíků
+    reading_list:
+      meta:
+        title: Seznam četby
+        description: Moje uložené příspěvky.
+        og:
+          title: Seznam četby – %{community}
+    series:
+      meta:
+        description: View %{title} on %{site}
+      heading: "%{user}'s Series"
+      empty: Tento uživatel nemá žádné série
+      list:
+        heading: "%{series} Články ze série"
+        back: Zpět na %{user}'s Series
+        empty: Tato série neobsahuje žádné články
+    sponsor:
+      icon: Milovat
+      seek: Staňte se sponzorem
+    sticky:
+      joined: Připojeno
+      default_cta: Zjistěte více
+      email: Email
+      hot: Horký
+      location: Umístění
+      more_from_html: Více od %{actor}
+      no_summary: Příspěvky v tomto tagu
+      trending_html: Populární na %{app}
+    videos:
+      meta:
+        title: Videa
+        og:
+          description: Všechna videa na %{community}
+      heading: "%{community} na videu"
+      beta_html: "<strong>Video je beta:</strong> %{contact}"
+      upload: "🎥 Nahrajte soubor videa 🙌"

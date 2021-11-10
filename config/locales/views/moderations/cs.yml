@@ -1,0 +1,122 @@
+---
+cs:
+  views:
+    moderations:
+      heading: Mod Center
+      actions:
+        meta:
+          title: Moderování %{title}
+          title2: "[Moderate] %{title}"
+        heading: Umírněný příspěvek
+        subtitle: Ohodnoťte kvalitu tohoto příspěvku
+        abusive:
+          subtitle_html: Označte %{user} jako urážlivé
+          desc_html: To je ekvivalent zvracení u <b>všech</b> článků tohoto uživatele a sníží to skóre jeho článků.
+        adjust:
+          heading: Upravte značky
+          subtitle: Přidejte nebo odeberte značky
+          aria_label: Otevřete sekci úprav značek
+          icon: Upravte značky
+          add: Přidat značku
+          add_placeholder: Přidejte značku
+          reason: Důvod úpravy štítku
+          remove: Odstranit označení
+          submit: Předložit
+        approve:
+          add: Označit jako schválené
+          remove: Odebrat schválení
+        checkmark: Značka zaškrtnutí
+        close: Zavřít panel akcí moderátora
+        delete:
+          subtitle: Smazat tento komentář
+          button: Smazat komentář
+        edit:
+          post: Upravit příspěvek
+          article_admin: 'Admin: Článek'
+          comment_admin: 'Admin: Komentář'
+          user_admin: 'Admin: Uživatel'
+          resource_admin: 'Správa zdrojů:Článek'
+        errors:
+          one: '1 chyba zakázala uložení tohoto bloku:'
+          other: "%{count} chyb zakázalo uložení tohoto bloku:"
+        experience:
+          heading: Nastavte úroveň zkušeností
+          heading2: Zkušenostní úroveň pošty
+          subtitle: Vyberte nejvhodnější publikum pro tento příspěvek
+          aria_label: Otevřete sekci úrovně zkušeností
+          icon: Rezervovat
+          desc_html: Kdo <em>může</em> považovat tento příspěvek za nejhodnotnější na základě celkové úrovně zkušeností?
+          from: "%{lvl} - "
+          level:
+            Advanced: Pokročilý
+            Beginner: Začátečník
+            Expert: Expert
+            Mid-level: Střední úroveň
+            Novice: Nováček
+        flag: Označte uživatele
+        how: Jak to funguje?
+        hidden:
+          subtitle: Skryté komentáře
+          by: Komentář od %{user}
+        hint:
+          subtitle: Všechny negativní reakce jsou soukromé.
+          desc_html: |-
+            Použijte <b>Vysoká kvalita</b> k posunutí tohoto obsahu „nahoru“ z jakéhokoli důvodu (kvalita, užitečnost atd.).
+            <br />
+            Použijte <b>Nízká kvalita</b> k přesunutí tohoto obsahu „dolů“ z jakéhokoli důvodu (kvalita, užitečnost atd.).
+            <br />
+            Použijte <b>Nahlásit administrátorům</b> pro porušení kodexu chování (obtěžování, hloupost, spam atd.).
+        other: Další věci, které můžete dělat
+        add_reaction: Přidejte reakci
+        suspicious: Podezřelý
+        tag:
+          subtitle: Úpravy značek
+          add: Přidat
+          added_html: "<b>Aktuálně přidaná značka:</b> %{tag}"
+          live_html: "<b>Aktuální aktivní značky:</b> %{tags}"
+          reason: Důvod úpravy (Buďte super laskavý) - Stačí pouze důvod, o zbytek se postará upozornění.
+          remove: Odstranit
+          removed_html: "<b>Aktuálně odstraněná značka:</b> %{tag}"
+          select: Vyberte možnost Tag
+          submit: Odeslat úpravu značky
+          tag_name: Název štítku
+          undo:
+            button: "×"
+            confirm: Opravdu chcete vrátit zpět %{type} tagu %{tag}?
+            type:
+              addition: přidání
+              removal: odstranění
+        thumb_down: Palec dolů
+        thumb_up: Palec nahoru
+        toggle: Přepnout sekci
+        unpublish: Zrušit publikování článku
+        vote_down: Nízká kvalita
+        flag_to_admins: Označit správci
+        vote_up: Vysoká kvalita
+      all: Všechna témata
+      aside:
+        all: Všechna témata
+        code_of_conduct: Kodex chování
+        external: Externí odkaz
+        feedback:
+          subtitle: Máte zpětnou vazbu ke zlepšení vaší zkušenosti s Modem?
+          description: Napište prosím %{email}!
+        hello: "Ahoj! 👋"
+        thanks: Děkujeme, že pomáháte udržovat %{community} v bezpečí! ❤️
+        inbox: Doručená pošta
+        resources: Zdroje
+        tag: Průvodce moderováním značek
+        terms_and_conditions: Všeobecné obchodní podmínky
+        trusted: Důvěryhodná uživatelská příručka
+      author: Autor
+      date: Datum
+      notice:
+        subtitle: "%{community} Mods"
+        desc1_html: Pravidelně udělujeme některým členům %{community} zvýšená oprávnění, aby pomohli moderovat komunitu.
+        desc2_html: Podívejte se na naše %{code} a přečtěte si naše %{trusted} a %{tag}.
+        desc3_html: Pokud nám jako důvěryhodný uživatel nebo mod tagu chcete pomoci, napište nám na %{email} a dejte nám vědět, o kterou roli máte zájem a proč. Pokud se jedná o moderování tagů, řekněte nám, jaké tagy chcete moderovat.
+        desc4: P.S. Momentálně nejste přihlášeni.
+        code_of_conduct: Kodex chování
+        tag: Průvodce moderováním značek
+        trusted: Důvěryhodná uživatelská příručka
+      post: Pošta

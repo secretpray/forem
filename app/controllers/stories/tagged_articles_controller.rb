@@ -9,7 +9,7 @@ module Stories
     def index
       @page = (params[:page] || 1).to_i
       @article_index = true
-      @tag = params[:tag].downcase
+      @tag = params[:tag].downcase.tr("+", "_")  # remove bug with space in tagы
       @tag_model = Tag.find_by(name: @tag) || not_found
       @moderators = User.with_role(:tag_moderator, @tag_model).select(:username, :profile_image, :id)
 
